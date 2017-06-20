@@ -8,3 +8,5 @@
 include_recipe 'chef_tracks_demo_2::system_setup'
 # install and setup mysql
 include_recipe 'chef_tracks_demo_2::mysql_setup'
+# install TracksApp
+include_recipe 'chef_tracks_demo_2::tracks_setup'
