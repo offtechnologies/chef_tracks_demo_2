@@ -10,3 +10,5 @@ include_recipe 'chef_tracks_demo_2::system_setup'
 include_recipe 'chef_tracks_demo_2::mysql_setup'
 # install TracksApp
 include_recipe 'chef_tracks_demo_2::tracks_setup'
+# install and setup nginx proxy
+include_recipe 'chef_tracks_demo_2::nginx_setup'
